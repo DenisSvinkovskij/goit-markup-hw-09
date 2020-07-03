@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-topline">
+        <nav class="topline-site-nav container">
+          <ul class="contact-us">
+            <li class="contact-us__tel-item">
+              <svg class="contact-us__icon">
+                <use href="./images/icons/svg/symbol-defs.svg#icon-tel"></use>
+              </svg>
+              <a class="contact-us__tel-item--tel" href="tel:123-123456789"
+                >123-123456789</a
+              >
+            </li>
+            <li class="contact-us__mail-item">
+              <svg class="contact-us__icon">
+                <use href="./images/icons/svg/symbol-defs.svg#icon-mail"></use>
+              </svg>
+              <a class="contact-us__mail-item--mail" href="mailto:info@ltntcom"
+                >info@ltntcom</a
+              >
+            </li>
+          </ul>
+          <ul class="login-menu">
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="">My Account</a>
+            </li>
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="">Wishlist</a>
+            </li>
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="">Cart</a>
+            </li>
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="">Checkout</a>
+            </li>
+            <li class="login-menu__item">
+              <a class="login-menu__link" href="">Login/Register</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-bottomline container">
+        <nav class="bottomline-site-nav">
+          <a class="logo" href="/"><span class="logo-m">M</span>art</a>
+          <ul class="link-list">
+            <li class="link-list__item">
+              <a class="link-list__link" href="">Home</a>
+            </li>
+            <li class="link-list__item">
+              <a class="link-list__link" href="">About us</a>
+            </li>
+            <li class="link-list__item">
+              <a class="link-list__link" href="">Page</a>
+            </li>
+            <li class="link-list__item">
+              <a class="link-list__link" href="">Shop</a>
+            </li>
+            <li class="link-list__item">
+              <a class="link-list__link" href="">Blog</a>
+            </li>
+            <li class="link-list__item">
+              <a class="link-list__link" href="">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="text-banner">
+          <h1 class="banner-title">
+            <span class="banner-title__first-line"
+              >Dresses
+              <span class="banner-title__first-line--title-letter">&</span>
+              Jeans</span
+            >
+            <span class="banner-title__second-line"
+              >From ourfamous brands
+              <span class="banner-title__second-line--title-sale">sale</span>
+            </span>
+            <a class="banner-title__buy-now" href="">Buy now</a>
+          </h1>
+        </div>
+      </section>
+      <section class="features container">
+        <ul class="features-list">
+          <li class="features-list__item setting">
+            <svg class="features-list__icon">
+              <use
+                href="./images/icons/svg/symbol-defs.svg#icon-settings"
+              ></use>
+            </svg>
+            <h2 class="features-list__title">Setting</h2>
+            <p class="features-list__text">
+              Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
+              efficiantur in. Nec id tempor imperdiet deterruisset, doctus
+              volumus explicari qui ex, appareat similique an usu.
+            </p>
+          </li>
+          <li class="features-list__item safe">
+            <svg class="features-list__icon">
+              <use href="./images/icons/svg/symbol-defs.svg#icon-safe"></use>
+            </svg>
+            <h2 class="features-list__title">Money back</h2>
+            <p class="features-list__text">
+              Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
+              efficiantur in. Nec id tempor imperdiet deterruisset, doctus
+              volumus explicari qui ex, appareat similique an usu.
+            </p>
+          </li>
+          <li class="features-list__item globe">
+            <svg class="features-list__icon">
+              <use href="./images/icons/svg/symbol-defs.svg#icon-globe"></use>
+            </svg>
+            <h2 class="features-list__title">Worldwide shipping</h2>
+            <p class="features-list__text">
+              Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
+              efficiantur in. Nec id tempor imperdiet deterruisset, doctus
+              volumus explicari qui ex, appareat similique an usu.
+            </p>
+          </li>
+          <li class="features-list__item compas">
+            <svg class="features-list__icon">
+              <use href="./images/icons/svg/symbol-defs.svg#icon-compass"></use>
+            </svg>
+            <h2 class="features-list__title">Worldwide shipping</h2>
+            <p class="features-list__text">
+              Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
+              efficiantur in. Nec id tempor imperdiet deterruisset, doctus
+              volumus explicari qui ex, appareat similique an usu.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="accent-section new-collection">
+        <div class="container">
+          <h1 class="title">New collection</h1>
+          <ul class="product-list">
+            <li class="product-list__item">
+              <img
+                srcset="./images/man-left.png 1x, ./images/man-left-x2.png 2x"
+                src="./images/man-left.png"
+                alt="man-left"
+                width="327"
+                class="product-list__item--man-left"
+              />
+
+              <div class="content new-collection">
+                <span class="content__name">Blue Tshirt</span>
+                <span class="content__price"> $26</span>
+              </div>
+
+              <div class="actions">
+                <button type="button" class="actions__button icon-like">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-like"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button icon-arrows">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button icon-clock">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button--icon-shop">
+                  <svg class="actions__button--shop-icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                    ></use>
+                  </svg>
+                  <span class="actions__button--button-text"> Add to cart</span>
+                </button>
+              </div>
+            </li>
+            <li class="product-list__item">
+              <img
+                srcset="./images/girl-left.png 1x, ./images/girl-left-x2.png 2x"
+                src="./images/girl-left.png"
+                alt="girl-left"
+                width="329"
+                class="product-list__item--girl-left"
+              />
+
+              <div class="content">
+                <span class="content__name"> Woman shirt</span>
+                <span class="content__price">$31</span>
+              </div>
+
+              <div class="actions">
+                <button type="button" class="actions__button icon-like">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-like"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button icon-arrows">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button icon-clock">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button--icon-shop">
+                  <svg class="actions__button--shop-icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                    ></use>
+                  </svg>
+                  <span class="actions__button--button-text"> Add to cart</span>
+                </button>
+              </div>
+            </li>
+            <li class="product-list__item">
+              <img
+                srcset="./images/man-right.png 1x, ./images/man-right-x2.png 2x"
+                src="./images/man-right.png"
+                alt="man-right"
+                width="222"
+                class="product-list__item--man-right"
+              />
+              <div class="content">
+                <span class="content__name">Yellow Tshirt</span>
+                <span class="content__price">$21</span>
+              </div>
+
+              <div class="actions">
+                <button type="button" class="actions__button icon-like">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-like"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button icon-arrows">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button icon-clock">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button--icon-shop">
+                  <svg class="actions__button--shop-icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                    ></use>
+                  </svg>
+                  <span class="actions__button--button-text"> Add to cart</span>
+                </button>
+              </div>
+            </li>
+            <li class="product-list__item">
+              <img
+                srcset="
+                  ./images/girl-right.png    1x,
+                  ./images/girl-right-x2.png 2x
+                "
+                src="./images/girl-right.png"
+                alt="girl-right"
+                width="331"
+                class="product-list__item--girl-right"
+              />
+              <div class="content">
+                <span class="content__name">Cool lingerie</span>
+                <span class="content__price">$56</span>
+              </div>
+
+              <div class="actions">
+                <button type="button" class="actions__button icon-like">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-like"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button icon-arrows">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button icon-clock">
+                  <svg class="actions__button--icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                    ></use>
+                  </svg>
+                </button>
+                <button type="button" class="actions__button--icon-shop">
+                  <svg class="actions__button--shop-icon">
+                    <use
+                      href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                    ></use>
+                  </svg>
+                  <span class="actions__button--button-text"> Add to cart</span>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="shop container">
+        <h1 class="title">Featured products</h1>
+        <ul class="product-list">
+          <li class="product-list__item">
+            <img
+              srcset="
+                ./images/women-shouse.png    1x,
+                ./images/women-shouse-x2.png 2x
+              "
+              src="./images/women-shouse.png"
+              alt="women shouse"
+              width="343"
+              class="product-img-1"
+            />
+
+            <div class="content">
+              <span class="content__name">Blue Tshirt</span>
+              <span class="content__price"> $26</span>
+            </div>
+
+            <div class="actions">
+              <button type="button" class="actions__button icon-like">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-like"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-arrows">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-clock">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button--icon-shop">
+                <svg class="actions__button--shop-icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                  ></use>
+                </svg>
+                <span class="actions__button--button-text"> Add to cart</span>
+              </button>
+            </div>
+          </li>
+          <li class="product-list__item">
+            <img
+              srcset="./images/belt.png 1x, ./images/belt-x2.png 2x"
+              src="./images/belt.png"
+              alt="belt"
+              width="176"
+              class="product-img-2"
+            />
+
+            <div class="content">
+              <span class="content__name"> Woman shirt</span>
+              <span class="content__price">$31</span>
+            </div>
+
+            <div class="actions">
+              <button type="button" class="actions__button icon-like">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-like"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-arrows">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-clock">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button--icon-shop">
+                <svg class="actions__button--shop-icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                  ></use>
+                </svg>
+                <span class="actions__button--button-text"> Add to cart</span>
+              </button>
+            </div>
+          </li>
+          <li class="product-list__item">
+            <img
+              srcset="./images/hat.png 1x, ./images/hat-x2.png 2x"
+              src="./images/hat.png"
+              alt="hat"
+              width="229"
+              class="product-img-3"
+            />
+            <div class="content">
+              <span class="content__name">Yellow Tshirt</span>
+              <span class="content__price">$21</span>
+            </div>
+
+            <div class="actions">
+              <button type="button" class="actions__button icon-like">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-like"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-arrows">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-clock">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button--icon-shop">
+                <svg class="actions__button--shop-icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                  ></use>
+                </svg>
+                <span class="actions__button--button-text"> Add to cart</span>
+              </button>
+            </div>
+          </li>
+          <li class="product-list__item">
+            <img
+              srcset="./images/bag.png 1x, ./images/bag-x2.png 2x"
+              src="./images/bag.png"
+              alt="bag"
+              width="240"
+              class="product-img-4"
+            />
+            <div class="content">
+              <span class="content__name">Cool lingerie</span>
+              <span class="content__price">$56</span>
+            </div>
+
+            <div class="actions">
+              <button type="button" class="actions__button icon-like">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-like"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-arrows">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-clock">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button--icon-shop">
+                <svg class="actions__button--shop-icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                  ></use>
+                </svg>
+                <span class="actions__button--button-text"> Add to cart</span>
+              </button>
+            </div>
+          </li>
+          <li class="product-list__item">
+            <img
+              srcset="./images/women-bag.png 1x, ./images/women-bag-x2.png 2x"
+              src="./images/women-bag.png"
+              alt="women bag"
+              width="198"
+              class="product-img-5"
+            />
+            <div class="content">
+              <span class="content__name">Blue Tshirt</span>
+              <span class="content__price">$26</span>
+            </div>
+
+            <div class="actions">
+              <button type="button" class="actions__button icon-like">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-like"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-arrows">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-clock">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button--icon-shop">
+                <svg class="actions__button--shop-icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                  ></use>
+                </svg>
+                <span class="actions__button--button-text"> Add to cart</span>
+              </button>
+            </div>
+          </li>
+          <li class="product-list__item">
+            <img
+              srcset="./images/belt-2.png 1x, ./images/belt-2-x2.png 2x"
+              src="./images/belt-2.png"
+              alt="belt"
+              width="260"
+              class="product-img-6"
+            />
+            <div class="content">
+              <span class="content__name">Woman shirt</span>
+              <span class="content__price">$31</span>
+            </div>
+            <div class="actions">
+              <button type="button" class="actions__button icon-like">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-like"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-arrows">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-clock">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button--icon-shop">
+                <svg class="actions__button--shop-icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                  ></use>
+                </svg>
+                <span class="actions__button--button-text"> Add to cart</span>
+              </button>
+            </div>
+          </li>
+          <li class="product-list__item">
+            <img
+              srcset="./images/shouse.png 1x, ./images/shouse-x2.png 2x"
+              src="./images/shouse.png"
+              alt="shouse"
+              width="196"
+              class="product-img-7"
+            />
+            <div class="content">
+              <span class="content__name">Yellow Tshirt</span>
+              <span class="content__price">$21</span>
+            </div>
+
+            <div class="actions">
+              <button type="button" class="actions__button icon-like">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-like"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-arrows">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-clock">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button--icon-shop">
+                <svg class="actions__button--shop-icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                  ></use>
+                </svg>
+                <span class="actions__button--button-text"> Add to cart</span>
+              </button>
+            </div>
+          </li>
+          <li class="product-list__item">
+            <img
+              srcset="./images/glasses.png 1x, ./images/glasses-x2.png 2x"
+              src="./images/glasses.png"
+              alt="glasses"
+              width="234"
+              class="product-img-8"
+            />
+            <div class="content">
+              <span class="content__name">Cool lingerie</span>
+              <span class="content__price">$56</span>
+            </div>
+
+            <div class="actions">
+              <button type="button" class="actions__button icon-like">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-like"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-arrows">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-arrows"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button icon-clock">
+                <svg class="actions__button--icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-clock"
+                  ></use>
+                </svg>
+              </button>
+              <button type="button" class="actions__button--icon-shop">
+                <svg class="actions__button--shop-icon">
+                  <use
+                    href="./images/icons/svg/symbol-defs.svg#icon-shop"
+                  ></use>
+                </svg>
+                <span class="actions__button--button-text"> Add to cart</span>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="accent-section news">
+        <div class="container">
+          <h1 class="title">Latest news</h1>
+          <ul class="news-list">
+            <li class="news-list__item">
+              <img
+                src="./images/news-1.png"
+                srcset="./images/news-1.png 1x, ./images/news-1-x2.png 2x, "
+                alt="ipad"
+                width="348"
+              />
+              <h2 class="news-list__title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                non?
+              </h2>
+              <p class="news-list__text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+                blanditiis repudiandae aut deleniti quasi architecto
+                consectetur, veniam provident nulla est magnam reprehenderit
+                dolores qui impedit at facere fugiat. Ut, explicabo.
+              </p>
+              <a class="news-list__read-more" href="">Read More</a>
+            </li>
+            <li class="news-list__item">
+              <img
+                srcset="./images/news-2.png 1x, ./images/news-2-x2.png 2x, "
+                src="./images/news-2.png"
+                alt="womans"
+                width="348"
+              />
+              <h2 class="news-list__title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </h2>
+              <p class="news-list__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                molestiae eveniet provident consequatur explicabo aperiam
+                deserunt quod. Impedit molestiae accusantium adipisci repellat,
+                perspiciatis atque libero eaque.
+              </p>
+              <a class="news-list__read-more" href="">Read More</a>
+            </li>
+            <li class="news-list__item">
+              <img
+                srcset="./images/news-3.png 1x, ./images/news-3-x2.png 2x, "
+                src="./images/news-3.png"
+                alt="bus"
+                width="348"
+              />
+              <h2 class="news-list__title">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </h2>
+              <p class="news-list__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+                sunt sint in fugiat consequatur tenetur consectetur, quidem
+                possimus odit placeat neque eveniet adipisci error saepe
+                incidunt perspiciatis esse tempore maxime.
+              </p>
+              <a class="news-list__read-more" href="">Read More</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__items container">
+          <h1 class="footer__title">Newsletter</h1>
+          <p class="footer__text">Follow a collection of news & promotions</p>
+
+          <form class="footer__input" action="next">
+            <input
+              type="email"
+              placeholder="Enter your email here"
+              class="footer__input--mail"
+            /><a href="" class="footer__link">
+              <!-- <img
+                  src="./images/icons/next.png"
+                  alt="next"
+                  class="link-next"
+              /> -->
+            </a>
+          </form>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
